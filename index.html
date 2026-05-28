@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마포 럭셔리 프라이빗 가라오케 라운지 — SHINJUKU MENS</title>
+  <meta name="description" content="신주쿠 가부키초의 밤을 마포로 이식합니다. 비즈니스 단체 회식 및 최고급 멤버십 가라오케, 한대표 투명 정찰제 가격 및 실시간 실시간 예약 안내.">
+  <link rel="canonical" href="https://mens-esthe.space/">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="마포 럭셔리 프라이빗 가라오케 라운지 — SHINJUKU MENS">
+  <meta property="og:description" content="신주쿠 가부키초의 밤을 마포로 이식합니다. 비즈니스 단체 회식 및 최고급 멤버십 가라오케, 한대표 투명 정찰제 가격 및 실시간 실시간 예약 안내.">
+  <meta property="og:url" content="https://mens-esthe.space/">
+  <meta property="og:type" content="website">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Noto+Serif+KR:wght@300;400;600;700&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-dark: #060810;
+      --bg-panel: #0c0f1d;
+      --accent-gold: #e2c08d;
+      --text-white: #f5f6fa;
+      --text-gray: #888d9e;
+      --border-gold: rgba(226, 192, 141, 0.2);
+      --font-serif: 'Noto Serif KR', 'Cinzel', serif;
+      --font-sans: 'Montserrat', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-white);
+      font-family: var(--font-sans);
+      line-height: 1.8;
+      letter-spacing: 0.03em;
+      overflow-x: hidden;
+    }
+
+    /* Grid Overlay background */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: 
+        linear-gradient(rgba(226, 192, 141, 0.015) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(226, 192, 141, 0.015) 1px, transparent 1px);
+      background-size: 40px 40px;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 30px;
+    }
+
+    /* Luxury Header */
+    header {
+      border-bottom: 1px solid var(--border-gold);
+      padding: 25px 0;
+      background: rgba(6, 8, 16, 0.9);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+
+    .nav-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: 'Cinzel', serif;
+      font-weight: 900;
+      font-size: 1.3rem;
+      letter-spacing: 0.12em;
+      color: var(--accent-gold);
+      text-decoration: none;
+    }
+
+    .logo span {
+      color: var(--text-white);
+    }
+
+    nav {
+      display: flex;
+      gap: 35px;
+    }
+
+    nav a {
+      color: var(--text-gray);
+      text-decoration: none;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent-gold);
+    }
+
+    /* Hero */
+    .hero {
+      padding: 120px 0 80px 0;
+      text-align: center;
+      position: relative;
+    }
+
+    .editorial-badge {
+      display: inline-block;
+      border: 1px solid var(--accent-gold);
+      color: var(--accent-gold);
+      font-family: var(--font-serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.25em;
+      padding: 6px 20px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-family: var(--font-serif);
+      font-weight: 300;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.25;
+      margin-bottom: 25px;
+    }
+
+    h1 em {
+      font-style: normal;
+      color: var(--accent-gold);
+      font-weight: 600;
+    }
+
+    .hero-subtitle {
+      font-size: 1rem;
+      color: var(--text-gray);
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+      font-weight: 300;
+    }
+
+    .btn-gold {
+      display: inline-block;
+      border: 1px solid var(--accent-gold);
+      color: var(--accent-gold);
+      padding: 12px 36px;
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      transition: all 0.3s;
+      background: transparent;
+    }
+
+    .btn-gold:hover {
+      background: var(--accent-gold);
+      color: var(--bg-dark);
+      box-shadow: 0 0 20px rgba(226, 192, 141, 0.3);
+    }
+
+    /* Price Section */
+    section {
+      padding: 80px 0;
+      border-top: 1px solid var(--border-gold);
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      color: var(--accent-gold);
+      margin-bottom: 45px;
+      text-align: center;
+      font-weight: 400;
+    }
+
+    .grid-pricing {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-bottom: 60px;
+    }
+
+    .price-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-gold);
+      padding: 40px 30px;
+      text-align: center;
+      position: relative;
+    }
+
+    .price-card.featured {
+      border-color: var(--accent-gold);
+    }
+
+    .price-card h3 {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      color: var(--text-white);
+      margin-bottom: 15px;
+    }
+
+    .price-val {
+      font-family: 'Cinzel', serif;
+      font-size: 2.2rem;
+      color: var(--accent-gold);
+      margin-bottom: 25px;
+    }
+
+    .price-features {
+      list-style: none;
+      text-align: left;
+      margin-bottom: 35px;
+      font-size: 0.82rem;
+      color: var(--text-gray);
+    }
+
+    .price-features li {
+      margin-bottom: 12px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .price-features li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--accent-gold);
+    }
+
+    /* VIP Contact */
+    .vip-contact-box {
+      border: 1px solid var(--accent-gold);
+      background: var(--bg-panel);
+      padding: 50px;
+      text-align: center;
+      position: relative;
+    }
+
+    .vip-contact-box::before {
+      content: '';
+      position: absolute;
+      top: 15px; left: 15px; right: 15px; bottom: 15px;
+      border: 1px solid var(--border-gold);
+      pointer-events: none;
+    }
+
+    .vip-contact-box h3 {
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+      color: var(--accent-gold);
+      margin-bottom: 20px;
+    }
+
+    .vip-contact-box p {
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      font-size: 0.88rem;
+      color: var(--text-gray);
+      line-height: 1.8;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border-gold);
+      padding: 60px 0 40px 0;
+      text-align: center;
+      font-size: 0.72rem;
+      color: var(--text-gray);
+    }
+
+    .footer-links a {
+      color: var(--accent-gold);
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    @media (max-width: 768px) {
+      .grid-pricing { grid-template-columns: 1fr; }
+      nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav-wrap">
+      <a href="/" class="logo">SHINJUKU <span>MENS</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#reserve">Reservation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="editorial-badge">Kabukicho Luxury Lounge in Mapo</div>
+      <h1>마포 최고급 프라이빗<br><em>가라오케 멤버십 라운지</em></h1>
+      <p class="hero-subtitle">신주쿠 가부키초의 압도적이고 매혹적인 밤문화를 마포에 그대로 재현합니다. 한대표가 약속드리는 거품 없는 100% 투명 정찰제와 최상의 프라이빗 가라오케 비즈니스 파티룸.</p>
+      <a href="#pricing" class="btn-gold">한대표 정찰 가격 및 코스 조회</a>
+    </section>
+
+    <section id="pricing">
+      <h2 class="section-title">Transparent Price & Course</h2>
+      <div class="grid-pricing">
+        <div class="price-card">
+          <h3>Single Class</h3>
+          <div class="price-val">₩250,000</div>
+          <ul class="price-features">
+            <li>프라이빗 VIP 대형 룸 3시간 대여</li>
+            <li>기본 프리미엄 위스키 1병 & 과일 플레이트</li>
+            <li>한대표 직속 친절 케어 포함</li>
+            <li>음향 장비 최적화 프리미엄 사운드</li>
+          </ul>
+          <a href="#reserve" class="btn-gold">실시간 예약 의뢰</a>
+        </div>
+        <div class="price-card featured">
+          <h3>Business VIP Class</h3>
+          <div class="price-val">₩450,000</div>
+          <ul class="price-features">
+            <li>무제한 최고급 룸 대여 (시간 제한 없음)</li>
+            <li>위스키 2병 & 럭셔리 모둠 과일 & 수입 비어</li>
+            <li>단체 비즈니스 접대 최적화 룸 세팅</li>
+            <li>한대표 특별 동행 어시스트 케어</li>
+          </ul>
+          <a href="#reserve" class="btn-gold" style="background: var(--accent-gold); color: var(--bg-dark);">VIP 멤버 예약</a>
+        </div>
+        <div class="price-card">
+          <h3>Supreme Luxury Class</h3>
+          <div class="price-val">₩800,000</div>
+          <ul class="price-features">
+            <li>최상위 펜트하우스 룸 대여권</li>
+            <li>최고급 빈티지 샴페인 & 몰트 위스키 제공</li>
+            <li>단체 회식용 사전 케이터링 연계 가능</li>
+            <li>24시간 사전 긴급 부킹 의전 예약</li>
+          </ul>
+          <a href="#reserve" class="btn-gold">의전 예약 의뢰</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="vip-contact-box" id="reserve">
+      <h3>한대표 직통 24시간 실시간 예약센터</h3>
+      <p>SHINJUKU MENS는 단 한 분의 눈탱이(바가지) 피해도 용납하지 않는 클린 예약을 보증합니다. 24시간 언제나 투명한 가격과 품격 있는 친절 케어로 비즈니스 접대 및 단체 회식의 완벽한 성공을 집도합니다.</p>
+      <a href="tel:010-0000-0000" class="btn-gold" style="background: var(--accent-gold); color: var(--bg-dark); font-weight: 700;">예약 대표 전화: 한대표 직통 연결</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="footer-links">
+        <a href="#">이용약관</a> | 
+        <a href="#">개인정보처리방침</a> | 
+        <a href="#">면책고지</a>
+      </p>
+      <p>© 2026 Shinjuku Mens Private Lounge. All rights reserved. 본 웹사이트는 마포 럭셔리 유흥 가라오케를 위한 상업예술 템플릿입니다.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
