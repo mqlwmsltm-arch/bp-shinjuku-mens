@@ -2,422 +2,298 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <meta name="bpaas-design-system" content="midnight-glass">
-    <meta name="bpaas-design-theme" content="kr-midnight-glass">
-    <meta name="description" content="마포 럭셔리 단체 가라오케 예약 가이드. VIP 단체 모임을 위한 프리미엄 룸과 맞춤형 코스를 소개합니다. 010-6279-0862로 지금 바로 문의하세요. BPaaS 프리미엄 SaaS 오토파일럿 판촉 캠페인 진행 중.">
-    <meta name="keywords" content="마포 럭셔리 단체 가라오케, 마포 가라오케 예약, VIP 단체 모임, 럭셔리 가라오케, 마포 노래방, 프리미엄 룸, 자동완성 테스트 키워드, 자동완성 기능 최적화 방법, 자동완성 알고리즘 비교 분석, 자동완성 사용자 경험 개선 팁">
-    <meta name="author" content="mens-esthe.space">
-    <meta name="robots" content="index, follow, max-image-preview:large">
-    <link rel="canonical" href="https://mens-esthe.space/mapo-luxury-group-karaoke-guide">
-    <title>마포 럭셔리 단체 가라오케 예약 가이드 | VIP 단체 모임 완벽 정복</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>마포 럭셔리 단체 가라오케 예약 가이드 – 브로가 알려주는 꿀팁</title>
+    <meta name="description" content="마포, 합정, 마곡에서 VIP 단체 가라오케 예약? 강서 10년 차 자영업자 '브로'가 직접 경험하고 추천하는 럭셔리 가라오케, 단체 룸, 시스템 바, 예약 꿀팁까지. 부담 없는 후기로 도움드립니다.">
+    <meta name="keywords" content="마포 럭셔리 단체 가라오케, 마포 가라오케 예약, VIP 가라오케, 합정 가라오케, 마곡 가라오케, 강서 가라오케, 단체 모임, 가성비 가라오케, 브로 추천">
+    <meta name="telephone" content="010-6279-0862">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+    <meta property="og:title" content="마포 럭셔리 단체 가라오케 예약 가이드 – 브로가 알려주는 꿀팁">
+    <meta property="og:description" content="VIP 단체 모임, 럭셔리 시스템 바, 마포/합정/마곡 프리미엄 가라오케 완벽 분석. 강서 10년 차 브로의 내부자 예약 전략.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마포 럭셔리 단체 가라오케 예약 가이드">
+    <meta name="twitter:description" content="VIP 단체 모임, 마포/합정/마곡 프리미엄 가라오케 완벽 분석. 강서 10년 차 브로의 내부자 예약 전략.">
     <style>
-        :root {
-            --bg-primary: #0a0a0f;
-            --bg-secondary: #12121a;
-            --bg-card: rgba(18, 18, 30, 0.65);
-            --bg-card-hover: rgba(22, 22, 38, 0.82);
-            --glass-border: rgba(255, 255, 255, 0.08);
-            --glass-border-hover: rgba(255, 255, 255, 0.18);
-            --text-primary: #f0ece6;
-            --text-secondary: #b8b5ae;
-            --text-muted: #7a7772;
-            --accent-gold: #c9a96e;
-            --accent-gold-light: #e0c78a;
-            --accent-gold-dark: #a0844a;
-            --accent-rose: #b76e79;
-            --shadow-card: 0 8px 40px rgba(0, 0, 0, 0.45);
-            --shadow-card-hover: 0 16px 56px rgba(0, 0, 0, 0.6);
-            --blur-glass: blur(18px);
-            --blur-heavy: blur(28px);
-            --font-display: 'Cormorant Garamond', 'Noto Serif KR', serif;
-            --font-body: 'Inter', 'Noto Sans KR', sans-serif;
-            --transition-smooth: 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
-            --transition-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-
-        * {
+        /* === RESET & BASE === */
+        *, *::before, *::after {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
-
+        html {
+            font-size: 16px;
+            -webkit-text-size-adjust: 100%;
+        }
         body {
-            background-color: var(--bg-primary);
-            color: var(--text-primary);
-            font-family: var(--font-body);
-            line-height: 1.7;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            overflow-x: hidden;
-            min-height: 100vh;
-            position: relative;
-        }
-
-        .hero-background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            z-index: -2;
-            background: radial-gradient(ellipse at 30% 20%, rgba(180, 140, 100, 0.06) 0%, transparent 55%),
-                radial-gradient(ellipse at 70% 60%, rgba(160, 120, 80, 0.04) 0%, transparent 55%),
-                radial-gradient(ellipse at 50% 80%, rgba(100, 60, 40, 0.03) 0%, transparent 50%),
-                linear-gradient(175deg, #0a0a0f 0%, #0f0f18 30%, #0a0a12 60%, #0d0d16 100%);
-            background-size: 100% 100%;
-        }
-
-        .hero-background::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: repeating-linear-gradient(0deg,
-                    transparent,
-                    transparent 2px,
-                    rgba(200, 170, 110, 0.008) 2px,
-                    rgba(200, 170, 110, 0.008) 4px);
-            pointer-events: none;
-            z-index: 1;
-        }
-
-        nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000;
-            padding: 1.1rem 2.2rem;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background: rgba(10, 10, 16, 0.72);
-            backdrop-filter: var(--blur-heavy);
-            -webkit-backdrop-filter: var(--blur-heavy);
-            border-bottom: 1px solid var(--glass-border);
-            transition: var(--transition-smooth);
-        }
-
-        .logo {
-            font-family: var(--font-display);
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--accent-gold-light);
-            letter-spacing: 0.04em;
-            text-decoration: none;
-            transition: var(--transition-smooth);
-        }
-
-        .logo:hover {
-            color: var(--accent-gold);
-            text-shadow: 0 0 24px rgba(200, 170, 110, 0.35);
-        }
-
-        .nav-links {
-            display: flex;
-            align-items: center;
-            gap: 2.4rem;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.92rem;
-            font-weight: 400;
-            letter-spacing: 0.03em;
-            transition: var(--transition-smooth);
-            position: relative;
-        }
-
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -6px;
-            left: 0;
-            width: 0;
-            height: 1px;
-            background: var(--accent-gold);
-            transition: width var(--transition-smooth);
-        }
-
-        .nav-links a:hover {
-            color: var(--accent-gold-light);
-        }
-
-        .nav-links a:hover::after {
-            width: 100%;
-        }
-
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            cursor: pointer;
-            z-index: 1001;
-            background: none;
-            border: none;
-            padding: 8px;
-        }
-
-        .hamburger span {
-            display: block;
-            width: 26px;
-            height: 2px;
-            background: var(--text-primary);
-            border-radius: 2px;
-            transition: var(--transition-smooth);
-        }
-
-        .container {
-            max-width: 1140px;
-            margin: 0 auto;
-            padding: 0 1.8rem;
-        }
-
-        .page-header {
-            padding-top: 8rem;
-            padding-bottom: 3rem;
-            text-align: center;
-            position: relative;
-        }
-
-        .page-header .eyebrow {
-            display: inline-block;
-            font-size: 0.78rem;
-            text-transform: uppercase;
-            letter-spacing: 0.18em;
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-            font-weight: 500;
-            border: 1px solid rgba(201, 169, 110, 0.3);
-            padding: 0.35rem 1.3rem;
-            border-radius: 999px;
-            backdrop-filter: var(--blur-glass);
-            -webkit-backdrop-filter: var(--blur-glass);
-            background: rgba(18, 18, 26, 0.4);
-        }
-
-        .page-header h1 {
-            font-family: var(--font-display);
-            font-size: clamp(2.6rem, 5.5vw, 4.2rem);
-            font-weight: 600;
-            line-height: 1.2;
-            color: var(--text-primary);
-            margin-bottom: 1.4rem;
-            letter-spacing: -0.01em;
-        }
-
-        .page-header .subtitle {
-            font-size: 1.12rem;
-            color: var(--text-secondary);
-            max-width: 620px;
-            margin: 0 auto 2.2rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #f8f9fa;
+            color: #1d1d1f;
             line-height: 1.6;
+            padding: 0 0 2.5rem 0;
         }
-
-        .cta-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.6rem;
-            background: linear-gradient(135deg, var(--accent-gold-dark), var(--accent-gold));
-            color: #1a1a10;
-            font-weight: 600;
-            font-size: 0.95rem;
-            padding: 0.85rem 2.2rem;
-            border-radius: 999px;
+        a {
+            color: #0066cc;
             text-decoration: none;
-            letter-spacing: 0.03em;
-            transition: var(--transition-bounce);
-            border: none;
-            cursor: pointer;
-            box-shadow: 0 6px 28px rgba(160, 132, 74, 0.25);
         }
-
-        .cta-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 38px rgba(180, 150, 90, 0.38);
-            background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-light));
+        a:hover {
+            text-decoration: underline;
         }
-
-        .content-section {
-            padding: 3.5rem 0;
+        ul, ol {
+            padding-left: 1.25rem;
         }
-
-        .content-section h2 {
-            font-family: var(--font-display);
-            font-size: 2.2rem;
+        /* === CONTAINER === */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        /* === TYPOGRAPHY === */
+        h1, h2, h3 {
             font-weight: 600;
-            color: var(--text-primary);
-            margin-bottom: 1.6rem;
-            letter-spacing: -0.01em;
-            position: relative;
-            display: inline-block;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
         }
-
-        .content-section h2::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 50px;
-            height: 2px;
-            background: var(--accent-gold);
-            border-radius: 2px;
+        h1 {
+            font-size: 2.4rem;
+            margin: 2.5rem 0 0.75rem 0;
         }
-
-        .content-section h3 {
-            font-family: var(--font-display);
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--accent-gold-light);
-            margin: 2rem 0 0.9rem;
+        h2 {
+            font-size: 1.8rem;
+            margin: 2.8rem 0 0.8rem 0;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 0.4rem;
         }
-
-        .content-section p {
-            color: var(--text-secondary);
-            margin-bottom: 1.3rem;
-            font-size: 1.03rem;
-            line-height: 1.8;
+        h3 {
+            font-size: 1.3rem;
+            margin: 1.8rem 0 0.5rem 0;
         }
-
-        .content-section ul,
-        .content-section ol {
-            color: var(--text-secondary);
-            margin-bottom: 1.6rem;
-            padding-left: 1.6rem;
-            font-size: 1.03rem;
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.05rem;
         }
-
-        .content-section li {
-            margin-bottom: 0.6rem;
-            line-height: 1.7;
+        .text-accent {
+            color: #1d1d1f;
+            font-weight: 500;
         }
-
-        .content-section li::marker {
-            color: var(--accent-gold);
+        .text-mono {
+            font-family: 'SF Mono', Menlo, monospace;
+            background: #e9ecef;
+            padding: 0.1rem 0.3rem;
+            border-radius: 4px;
         }
-
-        .insight-box {
-            background: var(--bg-card);
-            border: 1px solid var(--glass-border);
-            border-radius: 16px;
-            padding: 2rem 2.2rem;
-            margin: 2.4rem 0;
-            backdrop-filter: var(--blur-glass);
-            -webkit-backdrop-filter: var(--blur-glass);
-            position: relative;
-            overflow: hidden;
+        .text-small {
+            font-size: 0.9rem;
+            color: #6c6c70;
         }
-
-        .insight-box::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 4px;
-            height: 100%;
-            background: linear-gradient(180deg, var(--accent-gold), var(--accent-rose));
-            border-radius: 4px 0 0 4px;
-        }
-
-        .insight-box p {
-            margin-bottom: 0;
-            font-style: italic;
-            color: var(--text-primary);
-            font-size: 1.08rem;
-        }
-
+        /* === LAYOUT & COMPONENTS === */
         .card-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin: 2.4rem 0;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.8rem;
+            margin: 2rem 0;
         }
-
         .card {
-            background: var(--bg-card);
-            border: 1px solid var(--glass-border);
-            border-radius: 18px;
-            padding: 2rem;
-            backdrop-filter: var(--blur-glass);
-            -webkit-backdrop-filter: var(--blur-glass);
-            transition: var(--transition-smooth);
-            box-shadow: var(--shadow-card);
-            position: relative;
-            overflow: hidden;
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 1.6rem 1.5rem;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+            border: 1px solid #eaecee;
+            transition: transform 0.2s ease;
         }
-
         .card:hover {
-            background: var(--bg-card-hover);
-            border-color: var(--glass-border-hover);
-            box-shadow: var(--shadow-card-hover);
             transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.06);
         }
-
-        .card .card-icon {
-            font-size: 2.4rem;
-            margin-bottom: 1.1rem;
-            display: block;
-        }
-
-        .card h4 {
-            font-family: var(--font-display);
+        .card h3 {
+            margin-top: 0;
             font-size: 1.3rem;
-            font-weight: 600;
-            color: var(--accent-gold-light);
-            margin-bottom: 0.7rem;
         }
-
         .card p {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            line-height: 1.6;
+            font-size: 0.98rem;
+            color: #2c2c2e;
+        }
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, #d4d4d4, transparent);
+            margin: 2.2rem 0;
+        }
+        .faq-item {
+            padding: 1.2rem 0;
+            border-bottom: 1px solid #e4e4e6;
+        }
+        .faq-item strong {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 0.3rem;
+        }
+        .faq-item p {
+            margin-bottom: 0;
+            color: #3a3a3c;
+        }
+        .tel-link {
+            display: inline-block;
+            background: #1d1d1f;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 0.6rem 1.6rem;
+            border-radius: 40px;
+            border: none;
+            transition: background 0.2s;
+        }
+        .tel-link:hover {
+            background: #3a3a3c;
+            text-decoration: none;
+        }
+        .highlight-box {
+            background: #f1f3f5;
+            border-left: 5px solid #1d1d1f;
+            padding: 1.5rem 2rem;
+            border-radius: 0 16px 16px 0;
+            margin: 2rem 0;
+        }
+        .highlight-box p:last-child {
             margin-bottom: 0;
         }
-
-        .faq-section {
-            margin: 3rem 0;
-        }
-
-        .faq-item {
-            background: var(--bg-card);
-            border: 1px solid var(--glass-border);
-            border-radius: 14px;
-            margin-bottom: 1rem;
-            overflow: hidden;
-            transition: var(--transition-smooth);
-        }
-
-        .faq-item summary {
-            padding: 1.3rem 1.6rem;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 1.05rem;
-            color: var(--text-primary);
-            list-style: none;
+        /* === NAV === */
+        .nav-present {
+            background: #ffffff;
+            border-bottom: 1px solid #e8e8ea;
+            padding: 0.8rem 1.5rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            transition: var(--transition-smooth);
+            flex-wrap: wrap;
         }
-
-        .faq-item summary::-webkit-details-marker {
+        .nav-present .logo {
+            font-weight: 700;
+            font-size: 1.2rem;
+            letter-spacing: -0.3px;
+        }
+        .nav-present .hamburger-menu {
             display: none;
+            font-size: 1.8rem;
+            cursor: default;
+            user-select: none;
         }
-
-        .faq-item summary::after {
-            content: '+';
-            font-size: 1.4rem;
-            color: var(--accent-gold);
-            transition: var(--transition-smooth);
+        .nav-present ul {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            padding: 0;
         }
+        .nav-present ul li a {
+            font-weight: 500;
+            color: #1d1d1f;
+        }
+        .nav-present ul li a:hover {
+            color: #007aff;
+        }
+        /* responsive-768 */
+        @media (max-width: 768px) {
+            .nav-present .hamburger-menu {
+                display: block;
+            }
+            .nav-present ul {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                gap: 0.75rem;
+                padding: 1rem 0 0.5rem 0;
+            }
+            .nav-present.responsive-768 ul {
+                display: flex;
+            }
+            h1 {
+                font-size: 1.9rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            .container {
+                padding: 0 1.2rem;
+            }
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        /* tel-link visible */
+        .tel-link {
+            margin-top: 0.4rem;
+        }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            text-align: center;
+            color: #6c6c70;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
 
-        .faq-item[open] summary::after {
-            content: '−';
-            transform:
+<!-- NAV (동일 디자인, 전체 공유) -->
+<nav class="nav-present">
+    <div class="logo">브로<span style="font-weight:400;">가라오케</span></div>
+    <div class="hamburger-menu">☰</div>
+    <ul>
+        <li><a href="#">홈</a></li>
+        <li><a href="#">VIP 단체</a></li>
+        <li><a href="#">시스템바</a></li>
+        <li><a href="#">예약꿀팁</a></li>
+        <li><a href="#">가이드</a></li>
+        <li><a href="tel:01062790862" class="tel-link">010-6279-0862</a></li>
+    </ul>
+</nav>
+
+<main class="container">
+
+    <!-- 페이지 타이틀 -->
+    <h1>마포 럭셔리 단체 가라오케 예약 가이드 – 브로가 알려주는 꿀팁</h1>
+    <p class="text-small" style="margin-top:-0.2rem; margin-bottom:2rem;">VIP 단체 모임 · 마포 · 합정 · 마곡 · 강서 10년 차 브로의 내부자 인사이트</p>
+
+    <!-- intro bold / edgy -->
+    <div class="highlight-box">
+        <p><strong>“럭셔리 가라오케 예약, 아직도 발품 팔아?”</strong> 마포·합정·마곡에서 VIP 단체 모임을 준비한다면, 시스템 바와 단체 룸의 디테일이 돈값을 결정한다. 강서에서 10년째 자영업하는 브로가 직접 부딪히며 찾아낸 예약 전략. 가성비 따지면서도 품위 놓치지 않는 단 하나의 가이드.</p>
+    </div>
+
+    <!-- 섹션 1: 지점별 분석 카드 -->
+    <h2>마포 · 합정 · 마곡 프리미엄 스팟</h2>
+    <div class="card-grid">
+        <div class="card">
+            <h3>마포 럭셔리 단체</h3>
+            <p><span class="text-accent">VIP 룸</span> 전용 시스템 바, 20인 이상 수용 가능. 사운드와 조명이 압도적. 브로 추천: <strong>‘더 라운지’</strong> – 단체 예약 시 샴페인 서비스.</p>
+            <p class="text-small">⭐ 예약 필수 / 2시간 기본</p>
+        </div>
+        <div class="card">
+            <h3>합정 시스템바</h3>
+            <p>감각적인 인테리어 + 최신 큐시트. 단체 룸이 넓고 프라이빗. <span class="text-mono">‘레드머신’</span>은 호컬 성능이 환상적. 8~15인 모임 최적.</p>
+            <p class="text-small">⭐ 금·토요일 최소 2주 전 예약</p>
+        </div>
+        <div class="card">
+            <h3>마곡 VIP 모임</h3>
+            <p>비즈니스 접대에 특화. 무제한 시스템, 발렛파킹, 20인 이상 럭셔리 룸 보유. <strong>‘노블레스K’</strong>는 단체 할인 + 안주 퀄리티가 독보적.</p>
+            <p class="text-small">⭐ 사전 견적 필수</p>
+        </div>
+    </div>
+
+    <!-- 섹션 2: 예약 꿀팁 -> strong opinion -->
+    <h2>예약, 이렇게 하면 호구 안 된다</h2>
+    <p><strong>VIP 단체 모임에서 가장 중요한 건 ‘룸 배정’과 ‘시스템 바’다.</strong> 대부분 업주는 전화 예약 시 “럭셔리 룸”이라고 말하지만, 실제로는 일반 룸을 준다. <span class="text-accent">브로만의 체크리스트:</span></p>
+    <ul style="margin-bottom:1.8rem;">
+        <li><strong>룸 호수를 미리 지정</strong> – “VIP-A 룸으로 예약” 확정 받을 것.</li>
+        <li><strong>시스템 바 리스트 확인</strong> – 곡 수, 리모컨 상태, 블루투스 연결.</li>
+        <li><strong>단체 인원수에 맞는 마이크 수</strong> – 10인 이상이면 무선마이크 3개 이상.</li>
+        <li><strong>음료/안주 패키지</strong> – 무한 리필 조건과 시간 제한 반드시 확인.</li>
+    </ul>
+    <div class="highlight-box">
+        <p><strong>“럭셔리 = 비싼 게 아니다. 디테일이 럭셔리다.”</strong> 10년차 브로가 보장하는 원칙: 예약 전화 한 통으로 모든 조건을 문ᆫ서(문자)로 남겨라. 업주가 존중하는 손님은 조건을 까먹지 않는다.</p>
+    </div>
+
+    <!-- 섹션 3: 시스템 바 vs 단체 룸 -->
+    <h2>시스템 바, 단체 룸의 차이를 아는가?</h2>
+    <p>마포/합정/마곡 가라오케는 크게 <strong>시스템바</strong>와 <strong>단체 룸</strong>으로 나뉜다. 시스템바는 큐시트가 디지털, 조명+음향 통합. 단체 룸은 공간
 </body>
 </html>
