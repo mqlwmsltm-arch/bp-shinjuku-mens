@@ -8,3 +8,4 @@ User-agent: Bingbot
 Allow: /
 
 Sitemap: https://mens-esthe.space/sitemap.xml
+Sitemap: https://mens-esthe.space/sitemap-index.xml
