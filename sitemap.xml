@@ -2,33 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mens-esthe.space/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://mens-esthe.space/about.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mens-esthe.space/blog-1.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mens-esthe.space/blog-2.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mens-esthe.space/blog-3.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/field_note-001-12vznls.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://mens-esthe.space/posts/field_note-001-u97q9o.html</loc>
@@ -45,6 +51,24 @@
   <url>
     <loc>https://mens-esthe.space/posts/field_note-004-a2931b.html</loc>
     <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/field_note-004-tr49he.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/field_note-005-15o2hzn.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/field_note-005-uu7gxc.html</loc>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -79,6 +103,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://mens-esthe.space/posts/guide-003-1vpvf80.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://mens-esthe.space/posts/guide-003-a2931b.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -97,6 +127,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://mens-esthe.space/posts/guide-004-h6l5xi.html</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/guide-004-xuua1g.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/guide-005-jdz7gd.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://mens-esthe.space/posts/guide-005-u97q9o.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -104,13 +152,31 @@
   </url>
   <url>
     <loc>https://mens-esthe.space/posts/guide-followup-6-006-yyanon.html</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://mens-esthe.space/posts/guide-followup-8-008-a2931b.html</loc>
     <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/major_compare-001-11a7j00.html</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/major_compare-001-1sw3lzv.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/major_compare-002-1pil7hw.html</loc>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -139,6 +205,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://mens-esthe.space/posts/major_compare-005-i4z2ky.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://mens-esthe.space/posts/major_compare-followup-7-007-u97q9o.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -157,6 +229,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://mens-esthe.space/posts/myth-002-1fuxpq1.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://mens-esthe.space/posts/myth-002-1wnjaxz.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -165,6 +243,24 @@
   <url>
     <loc>https://mens-esthe.space/posts/myth-002-a2931b.html</loc>
     <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/myth-003-1ieonvv.html</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/myth-003-oif24p.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/myth-004-f4ii8.html</loc>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -187,6 +283,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://mens-esthe.space/posts/qa-001-1lhihgw.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://mens-esthe.space/posts/qa-001-a2931b.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -201,6 +303,24 @@
   <url>
     <loc>https://mens-esthe.space/posts/qa-001-fgzwmh.html</loc>
     <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/qa-002-1347g90.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/qa-002-1dykok6.html</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mens-esthe.space/posts/qa-003-1acwwf3.html</loc>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
