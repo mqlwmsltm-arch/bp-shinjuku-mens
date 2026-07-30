@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://mens-esthe.space/sitemap.xml
+Sitemap: https://mens-esthe.space/sitemap-pages.xml
 Sitemap: https://mens-esthe.space/sitemap-index.xml
