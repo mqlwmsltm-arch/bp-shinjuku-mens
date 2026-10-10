@@ -21,6 +21,7 @@ div[data-post-index-navigation="true"] { display:block !important; visibility:vi
 div[data-post-index-navigation="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:8px 14px; border:1px solid currentColor; border-radius:6px; background:Canvas; color:CanvasText; text-decoration:none; }
 nav.pager, nav.post-pager, nav[data-site-documents="true"] { display:flex !important; visibility:visible !important; flex-wrap:wrap; gap:12px; padding:16px 0; }
 nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:6px 10px; color:inherit; }
+:where(article, .content) :where(img[width][height]) { max-width:100%; height:auto; }
 </style>  <meta property="og:title" content="특정 계정의 우선순위를 결정하는 내부 로직과 필터링 알고리즘">
   <meta property="og:description" content="정보를 다루던 시절, 우리는 슬라이드 번호가 아닌">
   <meta property="og:type" content="website">
